@@ -1,17 +1,29 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import UserStote from './store/UserStore';
+import RecipeStore from './store/RecipeStore';
+import TvShowStore from './store/TvShowStore';
+import ArticlesStore from './store/ArticlesStore';
+import NewsStore from './store/NewsStore';
+
+export const Context = createContext(null);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Context.Provider value = {{
+      user: new UserStote(),
+      recipes: new RecipeStore(),
+      tvShow: new TvShowStore(),
+      news: new NewsStore(),
+      articles: new ArticlesStore()
+    }}>
+        <App />
+    </Context.Provider>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
 reportWebVitals();
