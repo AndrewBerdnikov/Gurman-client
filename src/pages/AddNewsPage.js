@@ -4,10 +4,6 @@ import SearchTop from '../components/search bar/SearchTop';
 import { Context } from '..';
 
 import jwt from 'jwt-decode';
-import { createRecipe } from '../components/http/recipeApi';
-import { getRecipes } from '../components/http/recipeApi';
-import { createFastInfo, createMainInfo, createSteps, createStructure } from '../components/http/recipeInfoApi';
-import { createArticles } from '../components/http/articlesApi';
 import { createNews } from '../components/http/newsApi';
 
 const AddNewsPage = observer(() => {

@@ -1,4 +1,4 @@
-import { $authHost, $host } from ".";
+import { $authHost, $host, $serverHost } from ".";
 import jwt_decode from "jwt-decode";
 
 export const createMainInfo = async (recipeId, kitchen, categories, time_of_day, holiday) => {
@@ -22,36 +22,36 @@ export const createProducts = async (name) => {
 }
 
 export const createStructure = async (recipeId, productsId, value) => {
-    const {data} = await $authHost.post('api/recipe-info/postStructure', {recipeId, productsId, value});
+    const {data} = await $serverHost.post('api/recipe-info/postStructure', {recipeId, productsId, value});
     return data;
 }
 
 export const createSteps = async (recipeId, img, steps) => {
-    const {data} = await $authHost.post('api/recipe-info/postSteps', {recipeId, img, steps});
+    const {data} = await $serverHost.post('api/recipe-info/postSteps', {recipeId, img, steps});
     return data;
 }
 
 export const getMainInfo = async (recipeId) => {
-    const {data} = await $host.get('api/recipe-info/getMainInfo', {params: { recipeId } });
+    const {data} = await $serverHost.get('api/recipe-info/getMainInfo', {params: { recipeId } });
     return data;
 }
 
 export const getFastInfo = async (recipeId) => {
-    const {data} = await $host.get('api/recipe-info/getFastInfo', {params:  { recipeId } });
+    const {data} = await $serverHost.get('api/recipe-info/getFastInfo', {params:  { recipeId } });
     return data;
 }
 
 export const getProducts = async (productsId) => {
-    const {data} = await $host.get('api/recipe-info/getProducts', {params: { productsId } });
+    const {data} = await $serverHost.get('api/recipe-info/getProducts', {params: { productsId } });
     return data;
 }
 
 export const getStructure = async (recipeId) => {
-    const {data} = await $host.get('api/recipe-info/getStructure', {params: { recipeId } });
+    const {data} = await $serverHost.get('api/recipe-info/getStructure', {params: { recipeId } });
     return data;
 }
 
 export const getSteps = async (recipeId) => {
-    const {data} = await $host.get('api/recipe-info/getSteps', {params: {recipeId}});
+    const {data} = await $serverHost.get('api/recipe-info/getSteps', {params: {recipeId}});
     return data;
 }
