@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee820a72.css",
+    "main.js": "/static/js/main.792d162f.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/carousel1.jpg": "/static/media/carousel1.9ffe88683ae2ec1b2ee8.jpg",
+    "static/media/auth.jpg": "/static/media/auth.379f97550286c4186774.jpg",
+    "static/media/carousel5.jpg": "/static/media/carousel5.35452a3b51e09afc1cc3.jpg",
+    "static/media/carousel6.jpg": "/static/media/carousel6.03c2221b31cd8b1581ee.jpg",
+    "static/media/carousel3.jpg": "/static/media/carousel3.392203576699893c0e4f.jpg",
+    "static/media/accauntImg3.jpg": "/static/media/accauntImg3.8767a2ad314147bf4faf.jpg",
+    "static/media/carousel4.jpg": "/static/media/carousel4.7e48eb581d70c9da351a.jpg",
+    "static/media/accauntImg2.jpg": "/static/media/accauntImg2.210eaea77b0707523d8c.jpg",
+    "static/media/carousel2.jpg": "/static/media/carousel2.37c744801c4c8913fbb6.jpg",
+    "static/media/carousel8.jpg": "/static/media/carousel8.d5776fbc5f96f4bc5d1b.jpg",
+    "static/media/accauntImg1.jpg": "/static/media/accauntImg1.90e9624d8491babd3959.jpg",
+    "static/media/carousel7.jpg": "/static/media/carousel7.232df8e90cae27609b01.jpg",
+    "static/media/cart4.jpg": "/static/media/cart4.61c528e2d0cc05463510.jpg",
+    "static/media/cart3.jpg": "/static/media/cart3.06d4cd4efc5b558c9811.jpg",
+    "static/media/cart1.jpg": "/static/media/cart1.af5150973538eadd0102.jpg",
+    "static/media/cart2.jpg": "/static/media/cart2.26ae856eb956191738a5.jpg",
+    "static/media/calendar.jpg": "/static/media/calendar.96b3f71b748b74165fbe.jpg",
+    "static/media/search.png": "/static/media/search.a4ffda7c4f861b1b0729.png",
+    "index.html": "/index.html",
+    "main.ee820a72.css.map": "/static/css/main.ee820a72.css.map",
+    "main.792d162f.js.map": "/static/js/main.792d162f.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee820a72.css",
+    "static/js/main.792d162f.js"
+  ]
+}
